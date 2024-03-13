@@ -1,0 +1,63 @@
+
+body {
+    background-image: url('assets/super.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9; /
+}
+/* Estilos para o corpo da página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-image: url('assets/super01.jpeg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilos para a seção de produtos */
+.product-section {
+    flex-grow: 1;
+    padding-right: 20px;
+}
+
+/* Estilos para a seção do carrinho */
+.cart-section {
+    flex-basis: 300px;
+}
+
+/* Estilos para o rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos gerais */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+/* Outros estilos conforme necessário */

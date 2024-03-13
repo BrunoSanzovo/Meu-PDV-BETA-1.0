@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDV Supermercado</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <h1>PDV Supermercado</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="product-section">
+            <div class="product-grid" id="productList">
+                <!-- Lista de produtos aqui -->
+            </div>
+        </section>
+
+        <aside class="cart-section">
+            <div id="cart">
+                <h2>Carrinho</h2>
+                <ul id="cartList"></ul>
+                <p>Total: R$ <span id="total">0.00</span></p>
+                <button onclick="checkout()"><a href="confirmacao.html">Finalizar Compra</a></button>
+
+                <button id="limparCarrinhoButton">Limpar Carrinho</button>
+                <p>Número de Itens no Carrinho: <span id="numeroItens">0</span></p>
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <!-- Seção do rodapé -->
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
